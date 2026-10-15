@@ -1,0 +1,1803 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:23057528-7283-555f-b47a-17ef811a8591",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T16:48:50Z",
+    "component": {
+      "type": "application",
+      "name": "QUICKWIT",
+      "version": "8f865ff98603",
+      "bom-ref": "pkg:generic/anticloud/QUICKWIT@8f865ff98603",
+      "purl": "pkg:generic/anticloud/QUICKWIT@8f865ff98603",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "8f865ff98603db649a9f6338b9b40cf0bf3a64a3"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/quickwit-oss/quickwit"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "resolver",
+      "version": "2",
+      "purl": "pkg:cargo/resolver@2",
+      "bom-ref": "cargo/resolver@2"
+    },
+    {
+      "type": "library",
+      "name": "version",
+      "version": "0.9.1",
+      "purl": "pkg:cargo/version@0.9.1",
+      "bom-ref": "cargo/version@0.9.1"
+    },
+    {
+      "type": "library",
+      "name": "edition",
+      "version": "2024",
+      "purl": "pkg:cargo/edition@2024",
+      "bom-ref": "cargo/edition@2024"
+    },
+    {
+      "type": "library",
+      "name": "homepage",
+      "version": "https://quickwit.io/",
+      "purl": "pkg:cargo/homepage@https://quickwit.io/",
+      "bom-ref": "cargo/homepage@https://quickwit.io/"
+    },
+    {
+      "type": "library",
+      "name": "documentation",
+      "version": "https://quickwit.io/docs/",
+      "purl": "pkg:cargo/documentation@https://quickwit.io/docs/",
+      "bom-ref": "cargo/documentation@https://quickwit.io/docs/"
+    },
+    {
+      "type": "library",
+      "name": "repository",
+      "version": "https://github.com/quickwit-oss/quickwit",
+      "purl": "pkg:cargo/repository@https://github.com/quickwit-oss/quickwit",
+      "bom-ref": "cargo/repository@https://github.com/quickwit-oss/quickwit"
+    },
+    {
+      "type": "library",
+      "name": "license",
+      "version": "Apache-2.0",
+      "purl": "pkg:cargo/license@Apache-2.0",
+      "bom-ref": "cargo/license@Apache-2.0"
+    },
+    {
+      "type": "library",
+      "name": "ahash",
+      "version": "0.8",
+      "purl": "pkg:cargo/ahash@0.8",
+      "bom-ref": "cargo/ahash@0.8"
+    },
+    {
+      "type": "library",
+      "name": "anyhow",
+      "version": "1",
+      "purl": "pkg:cargo/anyhow@1",
+      "bom-ref": "cargo/anyhow@1"
+    },
+    {
+      "type": "library",
+      "name": "arc-swap",
+      "version": "1.9",
+      "purl": "pkg:cargo/arc-swap@1.9",
+      "bom-ref": "cargo/arc-swap@1.9"
+    },
+    {
+      "type": "library",
+      "name": "assert-json-diff",
+      "version": "2",
+      "purl": "pkg:cargo/assert-json-diff@2",
+      "bom-ref": "cargo/assert-json-diff@2"
+    },
+    {
+      "type": "library",
+      "name": "async-compression",
+      "version": "0.4",
+      "purl": "pkg:cargo/async-compression@0.4",
+      "bom-ref": "cargo/async-compression@0.4"
+    },
+    {
+      "type": "library",
+      "name": "async-speed-limit",
+      "version": "0.4",
+      "purl": "pkg:cargo/async-speed-limit@0.4",
+      "bom-ref": "cargo/async-speed-limit@0.4"
+    },
+    {
+      "type": "library",
+      "name": "async-trait",
+      "version": "0.1",
+      "purl": "pkg:cargo/async-trait@0.1",
+      "bom-ref": "cargo/async-trait@0.1"
+    },
+    {
+      "type": "library",
+      "name": "atomic_float",
+      "version": "1.1",
+      "purl": "pkg:cargo/atomic_float@1.1",
+      "bom-ref": "cargo/atomic_float@1.1"
+    },
+    {
+      "type": "library",
+      "name": "backtrace",
+      "version": "0.3",
+      "purl": "pkg:cargo/backtrace@0.3",
+      "bom-ref": "cargo/backtrace@0.3"
+    },
+    {
+      "type": "library",
+      "name": "base64",
+      "version": "0.23",
+      "purl": "pkg:cargo/base64@0.23",
+      "bom-ref": "cargo/base64@0.23"
+    },
+    {
+      "type": "library",
+      "name": "binggan",
+      "version": "0.17",
+      "purl": "pkg:cargo/binggan@0.17",
+      "bom-ref": "cargo/binggan@0.17"
+    },
+    {
+      "type": "library",
+      "name": "bitpacking",
+      "version": "0.9",
+      "purl": "pkg:cargo/bitpacking@0.9",
+      "bom-ref": "cargo/bitpacking@0.9"
+    },
+    {
+      "type": "library",
+      "name": "bytes",
+      "version": "1",
+      "purl": "pkg:cargo/bytes@1",
+      "bom-ref": "cargo/bytes@1"
+    },
+    {
+      "type": "library",
+      "name": "bytesize",
+      "version": "2.4",
+      "purl": "pkg:cargo/bytesize@2.4",
+      "bom-ref": "cargo/bytesize@2.4"
+    },
+    {
+      "type": "library",
+      "name": "bytestring",
+      "version": "1.5",
+      "purl": "pkg:cargo/bytestring@1.5",
+      "bom-ref": "cargo/bytestring@1.5"
+    },
+    {
+      "type": "library",
+      "name": "chrono",
+      "version": "0.4",
+      "purl": "pkg:cargo/chrono@0.4",
+      "bom-ref": "cargo/chrono@0.4"
+    },
+    {
+      "type": "library",
+      "name": "clap",
+      "version": "4.6",
+      "purl": "pkg:cargo/clap@4.6",
+      "bom-ref": "cargo/clap@4.6"
+    },
+    {
+      "type": "library",
+      "name": "coarsetime",
+      "version": "0.1",
+      "purl": "pkg:cargo/coarsetime@0.1",
+      "bom-ref": "cargo/coarsetime@0.1"
+    },
+    {
+      "type": "library",
+      "name": "colored",
+      "version": "3.1",
+      "purl": "pkg:cargo/colored@3.1",
+      "bom-ref": "cargo/colored@3.1"
+    },
+    {
+      "type": "library",
+      "name": "console-subscriber",
+      "version": "0.5",
+      "purl": "pkg:cargo/console-subscriber@0.5",
+      "bom-ref": "cargo/console-subscriber@0.5"
+    },
+    {
+      "type": "library",
+      "name": "const_format",
+      "version": "0.2",
+      "purl": "pkg:cargo/const_format@0.2",
+      "bom-ref": "cargo/const_format@0.2"
+    },
+    {
+      "type": "library",
+      "name": "criterion",
+      "version": "0.8",
+      "purl": "pkg:cargo/criterion@0.8",
+      "bom-ref": "cargo/criterion@0.8"
+    },
+    {
+      "type": "library",
+      "name": "cron",
+      "version": "0.17",
+      "purl": "pkg:cargo/cron@0.17",
+      "bom-ref": "cargo/cron@0.17"
+    },
+    {
+      "type": "library",
+      "name": "dashmap",
+      "version": "6.2",
+      "purl": "pkg:cargo/dashmap@6.2",
+      "bom-ref": "cargo/dashmap@6.2"
+    },
+    {
+      "type": "library",
+      "name": "dialoguer",
+      "version": "0.12",
+      "purl": "pkg:cargo/dialoguer@0.12",
+      "bom-ref": "cargo/dialoguer@0.12"
+    },
+    {
+      "type": "library",
+      "name": "dotenvy",
+      "version": "0.15",
+      "purl": "pkg:cargo/dotenvy@0.15",
+      "bom-ref": "cargo/dotenvy@0.15"
+    },
+    {
+      "type": "library",
+      "name": "dyn-clone",
+      "version": "1.0",
+      "purl": "pkg:cargo/dyn-clone@1.0",
+      "bom-ref": "cargo/dyn-clone@1.0"
+    },
+    {
+      "type": "library",
+      "name": "enum-iterator",
+      "version": "2.3",
+      "purl": "pkg:cargo/enum-iterator@2.3",
+      "bom-ref": "cargo/enum-iterator@2.3"
+    },
+    {
+      "type": "library",
+      "name": "env_logger",
+      "version": "0.11",
+      "purl": "pkg:cargo/env_logger@0.11",
+      "bom-ref": "cargo/env_logger@0.11"
+    },
+    {
+      "type": "library",
+      "name": "fail",
+      "version": "0.5",
+      "purl": "pkg:cargo/fail@0.5",
+      "bom-ref": "cargo/fail@0.5"
+    },
+    {
+      "type": "library",
+      "name": "flate2",
+      "version": "1.1",
+      "purl": "pkg:cargo/flate2@1.1",
+      "bom-ref": "cargo/flate2@1.1"
+    },
+    {
+      "type": "library",
+      "name": "flume",
+      "version": "0.12",
+      "purl": "pkg:cargo/flume@0.12",
+      "bom-ref": "cargo/flume@0.12"
+    },
+    {
+      "type": "library",
+      "name": "fnv",
+      "version": "1",
+      "purl": "pkg:cargo/fnv@1",
+      "bom-ref": "cargo/fnv@1"
+    },
+    {
+      "type": "library",
+      "name": "futures",
+      "version": "0.3",
+      "purl": "pkg:cargo/futures@0.3",
+      "bom-ref": "cargo/futures@0.3"
+    },
+    {
+      "type": "library",
+      "name": "futures-util",
+      "version": "0.3",
+      "purl": "pkg:cargo/futures-util@0.3",
+      "bom-ref": "cargo/futures-util@0.3"
+    },
+    {
+      "type": "library",
+      "name": "glob",
+      "version": "0.3",
+      "purl": "pkg:cargo/glob@0.3",
+      "bom-ref": "cargo/glob@0.3"
+    },
+    {
+      "type": "library",
+      "name": "google-cloud-auth",
+      "version": "0.17",
+      "purl": "pkg:cargo/google-cloud-auth@0.17",
+      "bom-ref": "cargo/google-cloud-auth@0.17"
+    },
+    {
+      "type": "library",
+      "name": "google-cloud-gax",
+      "version": "0.19",
+      "purl": "pkg:cargo/google-cloud-gax@0.19",
+      "bom-ref": "cargo/google-cloud-gax@0.19"
+    },
+    {
+      "type": "library",
+      "name": "google-cloud-googleapis",
+      "version": "0.16",
+      "purl": "pkg:cargo/google-cloud-googleapis@0.16",
+      "bom-ref": "cargo/google-cloud-googleapis@0.16"
+    },
+    {
+      "type": "library",
+      "name": "google-cloud-pubsub",
+      "version": "0.30",
+      "purl": "pkg:cargo/google-cloud-pubsub@0.30",
+      "bom-ref": "cargo/google-cloud-pubsub@0.30"
+    },
+    {
+      "type": "library",
+      "name": "governor",
+      "version": "0.10",
+      "purl": "pkg:cargo/governor@0.10",
+      "bom-ref": "cargo/governor@0.10"
+    },
+    {
+      "type": "library",
+      "name": "heck",
+      "version": "0.5",
+      "purl": "pkg:cargo/heck@0.5",
+      "bom-ref": "cargo/heck@0.5"
+    },
+    {
+      "type": "library",
+      "name": "hex",
+      "version": "0.4",
+      "purl": "pkg:cargo/hex@0.4",
+      "bom-ref": "cargo/hex@0.4"
+    },
+    {
+      "type": "library",
+      "name": "home",
+      "version": "0.5",
+      "purl": "pkg:cargo/home@0.5",
+      "bom-ref": "cargo/home@0.5"
+    },
+    {
+      "type": "library",
+      "name": "hostname",
+      "version": "0.4",
+      "purl": "pkg:cargo/hostname@0.4",
+      "bom-ref": "cargo/hostname@0.4"
+    },
+    {
+      "type": "library",
+      "name": "http",
+      "version": "1.4",
+      "purl": "pkg:cargo/http@1.4",
+      "bom-ref": "cargo/http@1.4"
+    },
+    {
+      "type": "library",
+      "name": "http-body",
+      "version": "1.0",
+      "purl": "pkg:cargo/http-body@1.0",
+      "bom-ref": "cargo/http-body@1.0"
+    },
+    {
+      "type": "library",
+      "name": "http-body-util",
+      "version": "0.1",
+      "purl": "pkg:cargo/http-body-util@0.1",
+      "bom-ref": "cargo/http-body-util@0.1"
+    },
+    {
+      "type": "library",
+      "name": "http-serde",
+      "version": "2.1",
+      "purl": "pkg:cargo/http-serde@2.1",
+      "bom-ref": "cargo/http-serde@2.1"
+    },
+    {
+      "type": "library",
+      "name": "humantime",
+      "version": "2.3",
+      "purl": "pkg:cargo/humantime@2.3",
+      "bom-ref": "cargo/humantime@2.3"
+    },
+    {
+      "type": "library",
+      "name": "hyper",
+      "version": "1.9",
+      "purl": "pkg:cargo/hyper@1.9",
+      "bom-ref": "cargo/hyper@1.9"
+    },
+    {
+      "type": "library",
+      "name": "hyper-rustls",
+      "version": "0.27",
+      "purl": "pkg:cargo/hyper-rustls@0.27",
+      "bom-ref": "cargo/hyper-rustls@0.27"
+    },
+    {
+      "type": "library",
+      "name": "hyper-util",
+      "version": "0.1",
+      "purl": "pkg:cargo/hyper-util@0.1",
+      "bom-ref": "cargo/hyper-util@0.1"
+    },
+    {
+      "type": "library",
+      "name": "indexmap",
+      "version": "2.14",
+      "purl": "pkg:cargo/indexmap@2.14",
+      "bom-ref": "cargo/indexmap@2.14"
+    },
+    {
+      "type": "library",
+      "name": "indicatif",
+      "version": "0.18",
+      "purl": "pkg:cargo/indicatif@0.18",
+      "bom-ref": "cargo/indicatif@0.18"
+    },
+    {
+      "type": "library",
+      "name": "inventory",
+      "version": "0.3",
+      "purl": "pkg:cargo/inventory@0.3",
+      "bom-ref": "cargo/inventory@0.3"
+    },
+    {
+      "type": "library",
+      "name": "itertools",
+      "version": "0.15",
+      "purl": "pkg:cargo/itertools@0.15",
+      "bom-ref": "cargo/itertools@0.15"
+    },
+    {
+      "type": "library",
+      "name": "lambda_runtime",
+      "version": "1.2",
+      "purl": "pkg:cargo/lambda_runtime@1.2",
+      "bom-ref": "cargo/lambda_runtime@1.2"
+    },
+    {
+      "type": "library",
+      "name": "json_comments",
+      "version": "0.2",
+      "purl": "pkg:cargo/json_comments@0.2",
+      "bom-ref": "cargo/json_comments@0.2"
+    },
+    {
+      "type": "library",
+      "name": "libz-sys",
+      "version": "1.1",
+      "purl": "pkg:cargo/libz-sys@1.1",
+      "bom-ref": "cargo/libz-sys@1.1"
+    },
+    {
+      "type": "library",
+      "name": "lru",
+      "version": "0.18",
+      "purl": "pkg:cargo/lru@0.18",
+      "bom-ref": "cargo/lru@0.18"
+    },
+    {
+      "type": "library",
+      "name": "matches",
+      "version": "0.1",
+      "purl": "pkg:cargo/matches@0.1",
+      "bom-ref": "cargo/matches@0.1"
+    },
+    {
+      "type": "library",
+      "name": "md5",
+      "version": "0.8",
+      "purl": "pkg:cargo/md5@0.8",
+      "bom-ref": "cargo/md5@0.8"
+    },
+    {
+      "type": "library",
+      "name": "metrics",
+      "version": "0.24",
+      "purl": "pkg:cargo/metrics@0.24",
+      "bom-ref": "cargo/metrics@0.24"
+    },
+    {
+      "type": "library",
+      "name": "metrics-opentelemetry",
+      "version": "=0.24032.8",
+      "purl": "pkg:cargo/metrics-opentelemetry@=0.24032.8",
+      "bom-ref": "cargo/metrics-opentelemetry@=0.24032.8"
+    },
+    {
+      "type": "library",
+      "name": "metrics-exporter-prometheus",
+      "version": "0.18",
+      "purl": "pkg:cargo/metrics-exporter-prometheus@0.18",
+      "bom-ref": "cargo/metrics-exporter-prometheus@0.18"
+    },
+    {
+      "type": "library",
+      "name": "metrics-util",
+      "version": "0.20",
+      "purl": "pkg:cargo/metrics-util@0.20",
+      "bom-ref": "cargo/metrics-util@0.20"
+    },
+    {
+      "type": "library",
+      "name": "mime_guess",
+      "version": "2.0",
+      "purl": "pkg:cargo/mime_guess@2.0",
+      "bom-ref": "cargo/mime_guess@2.0"
+    },
+    {
+      "type": "library",
+      "name": "mini-moka",
+      "version": "0.10",
+      "purl": "pkg:cargo/mini-moka@0.10",
+      "bom-ref": "cargo/mini-moka@0.10"
+    },
+    {
+      "type": "library",
+      "name": "mockall",
+      "version": "0.14",
+      "purl": "pkg:cargo/mockall@0.14",
+      "bom-ref": "cargo/mockall@0.14"
+    },
+    {
+      "type": "library",
+      "name": "new_string_template",
+      "version": "1.5",
+      "purl": "pkg:cargo/new_string_template@1.5",
+      "bom-ref": "cargo/new_string_template@1.5"
+    },
+    {
+      "type": "library",
+      "name": "nom",
+      "version": "8.0",
+      "purl": "pkg:cargo/nom@8.0",
+      "bom-ref": "cargo/nom@8.0"
+    },
+    {
+      "type": "library",
+      "name": "numfmt",
+      "version": "1.2",
+      "purl": "pkg:cargo/numfmt@1.2",
+      "bom-ref": "cargo/numfmt@1.2"
+    },
+    {
+      "type": "library",
+      "name": "oneshot",
+      "version": "0.2",
+      "purl": "pkg:cargo/oneshot@0.2",
+      "bom-ref": "cargo/oneshot@0.2"
+    },
+    {
+      "type": "library",
+      "name": "openssl",
+      "version": "0.10",
+      "purl": "pkg:cargo/openssl@0.10",
+      "bom-ref": "cargo/openssl@0.10"
+    },
+    {
+      "type": "library",
+      "name": "openssl-probe",
+      "version": "0.2",
+      "purl": "pkg:cargo/openssl-probe@0.2",
+      "bom-ref": "cargo/openssl-probe@0.2"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry",
+      "version": "0.32",
+      "purl": "pkg:cargo/opentelemetry@0.32",
+      "bom-ref": "cargo/opentelemetry@0.32"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry-appender-tracing",
+      "version": "0.32",
+      "purl": "pkg:cargo/opentelemetry-appender-tracing@0.32",
+      "bom-ref": "cargo/opentelemetry-appender-tracing@0.32"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry_sdk",
+      "version": "0.32",
+      "purl": "pkg:cargo/opentelemetry_sdk@0.32",
+      "bom-ref": "cargo/opentelemetry_sdk@0.32"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry-otlp",
+      "version": "0.32",
+      "purl": "pkg:cargo/opentelemetry-otlp@0.32",
+      "bom-ref": "cargo/opentelemetry-otlp@0.32"
+    },
+    {
+      "type": "library",
+      "name": "ouroboros",
+      "version": "0.18",
+      "purl": "pkg:cargo/ouroboros@0.18",
+      "bom-ref": "cargo/ouroboros@0.18"
+    },
+    {
+      "type": "library",
+      "name": "percent-encoding",
+      "version": "2.3",
+      "purl": "pkg:cargo/percent-encoding@2.3",
+      "bom-ref": "cargo/percent-encoding@2.3"
+    },
+    {
+      "type": "library",
+      "name": "pin-project",
+      "version": "1.1",
+      "purl": "pkg:cargo/pin-project@1.1",
+      "bom-ref": "cargo/pin-project@1.1"
+    },
+    {
+      "type": "library",
+      "name": "pnet",
+      "version": "0.35",
+      "purl": "pkg:cargo/pnet@0.35",
+      "bom-ref": "cargo/pnet@0.35"
+    },
+    {
+      "type": "library",
+      "name": "postcard",
+      "version": "1.1",
+      "purl": "pkg:cargo/postcard@1.1",
+      "bom-ref": "cargo/postcard@1.1"
+    },
+    {
+      "type": "library",
+      "name": "pprof",
+      "version": "0.15",
+      "purl": "pkg:cargo/pprof@0.15",
+      "bom-ref": "cargo/pprof@0.15"
+    },
+    {
+      "type": "library",
+      "name": "predicates",
+      "version": "3",
+      "purl": "pkg:cargo/predicates@3",
+      "bom-ref": "cargo/predicates@3"
+    },
+    {
+      "type": "library",
+      "name": "prettyplease",
+      "version": "0.2",
+      "purl": "pkg:cargo/prettyplease@0.2",
+      "bom-ref": "cargo/prettyplease@0.2"
+    },
+    {
+      "type": "library",
+      "name": "proc-macro2",
+      "version": "1.0",
+      "purl": "pkg:cargo/proc-macro2@1.0",
+      "bom-ref": "cargo/proc-macro2@1.0"
+    },
+    {
+      "type": "library",
+      "name": "prometheus",
+      "version": "0.14",
+      "purl": "pkg:cargo/prometheus@0.14",
+      "bom-ref": "cargo/prometheus@0.14"
+    },
+    {
+      "type": "library",
+      "name": "procfs",
+      "version": "0.18",
+      "purl": "pkg:cargo/procfs@0.18",
+      "bom-ref": "cargo/procfs@0.18"
+    },
+    {
+      "type": "library",
+      "name": "proptest",
+      "version": "1",
+      "purl": "pkg:cargo/proptest@1",
+      "bom-ref": "cargo/proptest@1"
+    },
+    {
+      "type": "library",
+      "name": "prost",
+      "version": "0.14",
+      "purl": "pkg:cargo/prost@0.14",
+      "bom-ref": "cargo/prost@0.14"
+    },
+    {
+      "type": "library",
+      "name": "prost-build",
+      "version": "0.14",
+      "purl": "pkg:cargo/prost-build@0.14",
+      "bom-ref": "cargo/prost-build@0.14"
+    },
+    {
+      "type": "library",
+      "name": "prost-types",
+      "version": "0.14",
+      "purl": "pkg:cargo/prost-types@0.14",
+      "bom-ref": "cargo/prost-types@0.14"
+    },
+    {
+      "type": "library",
+      "name": "pulsar",
+      "version": "6.8",
+      "purl": "pkg:cargo/pulsar@6.8",
+      "bom-ref": "cargo/pulsar@6.8"
+    },
+    {
+      "type": "library",
+      "name": "quanta",
+      "version": "0.12",
+      "purl": "pkg:cargo/quanta@0.12",
+      "bom-ref": "cargo/quanta@0.12"
+    },
+    {
+      "type": "library",
+      "name": "quick_cache",
+      "version": "0.7",
+      "purl": "pkg:cargo/quick_cache@0.7",
+      "bom-ref": "cargo/quick_cache@0.7"
+    },
+    {
+      "type": "library",
+      "name": "quote",
+      "version": "1.0",
+      "purl": "pkg:cargo/quote@1.0",
+      "bom-ref": "cargo/quote@1.0"
+    },
+    {
+      "type": "library",
+      "name": "rand",
+      "version": "0.10",
+      "purl": "pkg:cargo/rand@0.10",
+      "bom-ref": "cargo/rand@0.10"
+    },
+    {
+      "type": "library",
+      "name": "rand_distr",
+      "version": "0.6",
+      "purl": "pkg:cargo/rand_distr@0.6",
+      "bom-ref": "cargo/rand_distr@0.6"
+    },
+    {
+      "type": "library",
+      "name": "rayon",
+      "version": "1.12",
+      "purl": "pkg:cargo/rayon@1.12",
+      "bom-ref": "cargo/rayon@1.12"
+    },
+    {
+      "type": "library",
+      "name": "rdkafka",
+      "version": "0.39",
+      "purl": "pkg:cargo/rdkafka@0.39",
+      "bom-ref": "cargo/rdkafka@0.39"
+    },
+    {
+      "type": "library",
+      "name": "regex",
+      "version": "1.13",
+      "purl": "pkg:cargo/regex@1.13",
+      "bom-ref": "cargo/regex@1.13"
+    },
+    {
+      "type": "library",
+      "name": "regex-automata",
+      "version": "0.4",
+      "purl": "pkg:cargo/regex-automata@0.4",
+      "bom-ref": "cargo/regex-automata@0.4"
+    },
+    {
+      "type": "library",
+      "name": "regex-syntax",
+      "version": "0.8",
+      "purl": "pkg:cargo/regex-syntax@0.8",
+      "bom-ref": "cargo/regex-syntax@0.8"
+    },
+    {
+      "type": "library",
+      "name": "reqwest",
+      "version": "0.12",
+      "purl": "pkg:cargo/reqwest@0.12",
+      "bom-ref": "cargo/reqwest@0.12"
+    },
+    {
+      "type": "library",
+      "name": "reqwest-middleware",
+      "version": "0.4",
+      "purl": "pkg:cargo/reqwest-middleware@0.4",
+      "bom-ref": "cargo/reqwest-middleware@0.4"
+    },
+    {
+      "type": "library",
+      "name": "reqwest-retry",
+      "version": "0.8",
+      "purl": "pkg:cargo/reqwest-retry@0.8",
+      "bom-ref": "cargo/reqwest-retry@0.8"
+    },
+    {
+      "type": "library",
+      "name": "rust-embed",
+      "version": "8.11",
+      "purl": "pkg:cargo/rust-embed@8.11",
+      "bom-ref": "cargo/rust-embed@8.11"
+    },
+    {
+      "type": "library",
+      "name": "rustc-hash",
+      "version": "2.1",
+      "purl": "pkg:cargo/rustc-hash@2.1",
+      "bom-ref": "cargo/rustc-hash@2.1"
+    },
+    {
+      "type": "library",
+      "name": "rustls",
+      "version": "0.23",
+      "purl": "pkg:cargo/rustls@0.23",
+      "bom-ref": "cargo/rustls@0.23"
+    },
+    {
+      "type": "library",
+      "name": "rustls-pemfile",
+      "version": "2.2",
+      "purl": "pkg:cargo/rustls-pemfile@2.2",
+      "bom-ref": "cargo/rustls-pemfile@2.2"
+    },
+    {
+      "type": "library",
+      "name": "sea-query",
+      "version": "0.32",
+      "purl": "pkg:cargo/sea-query@0.32",
+      "bom-ref": "cargo/sea-query@0.32"
+    },
+    {
+      "type": "library",
+      "name": "sea-query-binder",
+      "version": "0.7",
+      "purl": "pkg:cargo/sea-query-binder@0.7",
+      "bom-ref": "cargo/sea-query-binder@0.7"
+    },
+    {
+      "type": "library",
+      "name": "serde",
+      "version": "1.0.228",
+      "purl": "pkg:cargo/serde@1.0.228",
+      "bom-ref": "cargo/serde@1.0.228"
+    },
+    {
+      "type": "library",
+      "name": "serde_json",
+      "version": "1.0",
+      "purl": "pkg:cargo/serde_json@1.0",
+      "bom-ref": "cargo/serde_json@1.0"
+    },
+    {
+      "type": "library",
+      "name": "serde_json_borrow",
+      "version": "0.9",
+      "purl": "pkg:cargo/serde_json_borrow@0.9",
+      "bom-ref": "cargo/serde_json_borrow@0.9"
+    },
+    {
+      "type": "library",
+      "name": "serde_qs",
+      "version": "1.1",
+      "purl": "pkg:cargo/serde_qs@1.1",
+      "bom-ref": "cargo/serde_qs@1.1"
+    },
+    {
+      "type": "library",
+      "name": "serde_with",
+      "version": "3.21",
+      "purl": "pkg:cargo/serde_with@3.21",
+      "bom-ref": "cargo/serde_with@3.21"
+    },
+    {
+      "type": "library",
+      "name": "serde_yaml",
+      "version": "0.9",
+      "purl": "pkg:cargo/serde_yaml@0.9",
+      "bom-ref": "cargo/serde_yaml@0.9"
+    },
+    {
+      "type": "library",
+      "name": "serial_test",
+      "version": "4.0",
+      "purl": "pkg:cargo/serial_test@4.0",
+      "bom-ref": "cargo/serial_test@4.0"
+    },
+    {
+      "type": "library",
+      "name": "sha2",
+      "version": "0.11",
+      "purl": "pkg:cargo/sha2@0.11",
+      "bom-ref": "cargo/sha2@0.11"
+    },
+    {
+      "type": "library",
+      "name": "siphasher",
+      "version": "1.0",
+      "purl": "pkg:cargo/siphasher@1.0",
+      "bom-ref": "cargo/siphasher@1.0"
+    },
+    {
+      "type": "library",
+      "name": "stable_deref_trait",
+      "version": "1.2",
+      "purl": "pkg:cargo/stable_deref_trait@1.2",
+      "bom-ref": "cargo/stable_deref_trait@1.2"
+    },
+    {
+      "type": "library",
+      "name": "smallvec",
+      "version": "1",
+      "purl": "pkg:cargo/smallvec@1",
+      "bom-ref": "cargo/smallvec@1"
+    },
+    {
+      "type": "library",
+      "name": "sqlx",
+      "version": "0.8",
+      "purl": "pkg:cargo/sqlx@0.8",
+      "bom-ref": "cargo/sqlx@0.8"
+    },
+    {
+      "type": "library",
+      "name": "syn",
+      "version": "2.0",
+      "purl": "pkg:cargo/syn@2.0",
+      "bom-ref": "cargo/syn@2.0"
+    },
+    {
+      "type": "library",
+      "name": "sync_wrapper",
+      "version": "1",
+      "purl": "pkg:cargo/sync_wrapper@1",
+      "bom-ref": "cargo/sync_wrapper@1"
+    },
+    {
+      "type": "library",
+      "name": "sysinfo",
+      "version": "0.39",
+      "purl": "pkg:cargo/sysinfo@0.39",
+      "bom-ref": "cargo/sysinfo@0.39"
+    },
+    {
+      "type": "library",
+      "name": "tabled",
+      "version": "0.21",
+      "purl": "pkg:cargo/tabled@0.21",
+      "bom-ref": "cargo/tabled@0.21"
+    },
+    {
+      "type": "library",
+      "name": "tempfile",
+      "version": "3",
+      "purl": "pkg:cargo/tempfile@3",
+      "bom-ref": "cargo/tempfile@3"
+    },
+    {
+      "type": "library",
+      "name": "thiserror",
+      "version": "2",
+      "purl": "pkg:cargo/thiserror@2",
+      "bom-ref": "cargo/thiserror@2"
+    },
+    {
+      "type": "library",
+      "name": "thousands",
+      "version": "0.2",
+      "purl": "pkg:cargo/thousands@0.2",
+      "bom-ref": "cargo/thousands@0.2"
+    },
+    {
+      "type": "library",
+      "name": "tikv-jemalloc-ctl",
+      "version": "0.6",
+      "purl": "pkg:cargo/tikv-jemalloc-ctl@0.6",
+      "bom-ref": "cargo/tikv-jemalloc-ctl@0.6"
+    },
+    {
+      "type": "library",
+      "name": "tikv-jemallocator",
+      "version": "0.6",
+      "purl": "pkg:cargo/tikv-jemallocator@0.6",
+      "bom-ref": "cargo/tikv-jemallocator@0.6"
+    },
+    {
+      "type": "library",
+      "name": "time",
+      "version": "0.3",
+      "purl": "pkg:cargo/time@0.3",
+      "bom-ref": "cargo/time@0.3"
+    },
+    {
+      "type": "library",
+      "name": "time-fmt",
+      "version": "0.3.8",
+      "purl": "pkg:cargo/time-fmt@0.3.8",
+      "bom-ref": "cargo/time-fmt@0.3.8"
+    },
+    {
+      "type": "library",
+      "name": "tokio",
+      "version": "1.52",
+      "purl": "pkg:cargo/tokio@1.52",
+      "bom-ref": "cargo/tokio@1.52"
+    },
+    {
+      "type": "library",
+      "name": "tokio-metrics",
+      "version": "0.5",
+      "purl": "pkg:cargo/tokio-metrics@0.5",
+      "bom-ref": "cargo/tokio-metrics@0.5"
+    },
+    {
+      "type": "library",
+      "name": "tokio-rustls",
+      "version": "0.26",
+      "purl": "pkg:cargo/tokio-rustls@0.26",
+      "bom-ref": "cargo/tokio-rustls@0.26"
+    },
+    {
+      "type": "library",
+      "name": "tokio-stream",
+      "version": "0.1",
+      "purl": "pkg:cargo/tokio-stream@0.1",
+      "bom-ref": "cargo/tokio-stream@0.1"
+    },
+    {
+      "type": "library",
+      "name": "tokio-util",
+      "version": "0.7",
+      "purl": "pkg:cargo/tokio-util@0.7",
+      "bom-ref": "cargo/tokio-util@0.7"
+    },
+    {
+      "type": "library",
+      "name": "toml",
+      "version": "1.1",
+      "purl": "pkg:cargo/toml@1.1",
+      "bom-ref": "cargo/toml@1.1"
+    },
+    {
+      "type": "library",
+      "name": "tonic",
+      "version": "0.14",
+      "purl": "pkg:cargo/tonic@0.14",
+      "bom-ref": "cargo/tonic@0.14"
+    },
+    {
+      "type": "library",
+      "name": "tonic-build",
+      "version": "0.14",
+      "purl": "pkg:cargo/tonic-build@0.14",
+      "bom-ref": "cargo/tonic-build@0.14"
+    },
+    {
+      "type": "library",
+      "name": "tonic-health",
+      "version": "0.14",
+      "purl": "pkg:cargo/tonic-health@0.14",
+      "bom-ref": "cargo/tonic-health@0.14"
+    },
+    {
+      "type": "library",
+      "name": "tonic-prost",
+      "version": "0.14",
+      "purl": "pkg:cargo/tonic-prost@0.14",
+      "bom-ref": "cargo/tonic-prost@0.14"
+    },
+    {
+      "type": "library",
+      "name": "tonic-prost-build",
+      "version": "0.14",
+      "purl": "pkg:cargo/tonic-prost-build@0.14",
+      "bom-ref": "cargo/tonic-prost-build@0.14"
+    },
+    {
+      "type": "library",
+      "name": "tonic-reflection",
+      "version": "0.14",
+      "purl": "pkg:cargo/tonic-reflection@0.14",
+      "bom-ref": "cargo/tonic-reflection@0.14"
+    },
+    {
+      "type": "library",
+      "name": "tower",
+      "version": "0.5",
+      "purl": "pkg:cargo/tower@0.5",
+      "bom-ref": "cargo/tower@0.5"
+    },
+    {
+      "type": "library",
+      "name": "tower-http",
+      "version": "0.6",
+      "purl": "pkg:cargo/tower-http@0.6",
+      "bom-ref": "cargo/tower-http@0.6"
+    },
+    {
+      "type": "library",
+      "name": "tracing",
+      "version": "0.1",
+      "purl": "pkg:cargo/tracing@0.1",
+      "bom-ref": "cargo/tracing@0.1"
+    },
+    {
+      "type": "library",
+      "name": "tracing-opentelemetry",
+      "version": "0.33",
+      "purl": "pkg:cargo/tracing-opentelemetry@0.33",
+      "bom-ref": "cargo/tracing-opentelemetry@0.33"
+    },
+    {
+      "type": "library",
+      "name": "tracing-subscriber",
+      "version": "0.3",
+      "purl": "pkg:cargo/tracing-subscriber@0.3",
+      "bom-ref": "cargo/tracing-subscriber@0.3"
+    },
+    {
+      "type": "library",
+      "name": "ttl_cache",
+      "version": "0.5",
+      "purl": "pkg:cargo/ttl_cache@0.5",
+      "bom-ref": "cargo/ttl_cache@0.5"
+    },
+    {
+      "type": "library",
+      "name": "typetag",
+      "version": "0.2",
+      "purl": "pkg:cargo/typetag@0.2",
+      "bom-ref": "cargo/typetag@0.2"
+    },
+    {
+      "type": "library",
+      "name": "ulid",
+      "version": "1.2",
+      "purl": "pkg:cargo/ulid@1.2",
+      "bom-ref": "cargo/ulid@1.2"
+    },
+    {
+      "type": "library",
+      "name": "ureq",
+      "version": "3",
+      "purl": "pkg:cargo/ureq@3",
+      "bom-ref": "cargo/ureq@3"
+    },
+    {
+      "type": "library",
+      "name": "username",
+      "version": "0.2",
+      "purl": "pkg:cargo/username@0.2",
+      "bom-ref": "cargo/username@0.2"
+    },
+    {
+      "type": "library",
+      "name": "utoipa",
+      "version": "4.2",
+      "purl": "pkg:cargo/utoipa@4.2",
+      "bom-ref": "cargo/utoipa@4.2"
+    },
+    {
+      "type": "library",
+      "name": "unicode-segmentation",
+      "version": "1.13",
+      "purl": "pkg:cargo/unicode-segmentation@1.13",
+      "bom-ref": "cargo/unicode-segmentation@1.13"
+    },
+    {
+      "type": "library",
+      "name": "uuid",
+      "version": "1.23",
+      "purl": "pkg:cargo/uuid@1.23",
+      "bom-ref": "cargo/uuid@1.23"
+    },
+    {
+      "type": "library",
+      "name": "vrl",
+      "version": "0.33",
+      "purl": "pkg:cargo/vrl@0.33",
+      "bom-ref": "cargo/vrl@0.33"
+    },
+    {
+      "type": "library",
+      "name": "warp",
+      "version": "0.4",
+      "purl": "pkg:cargo/warp@0.4",
+      "bom-ref": "cargo/warp@0.4"
+    },
+    {
+      "type": "library",
+      "name": "wiremock",
+      "version": "0.6",
+      "purl": "pkg:cargo/wiremock@0.6",
+      "bom-ref": "cargo/wiremock@0.6"
+    },
+    {
+      "type": "library",
+      "name": "zstd",
+      "version": "0.14",
+      "purl": "pkg:cargo/zstd@0.14",
+      "bom-ref": "cargo/zstd@0.14"
+    },
+    {
+      "type": "library",
+      "name": "aws-config",
+      "version": "1.9",
+      "purl": "pkg:cargo/aws-config@1.9",
+      "bom-ref": "cargo/aws-config@1.9"
+    },
+    {
+      "type": "library",
+      "name": "aws-credential-types",
+      "version": "1.3",
+      "purl": "pkg:cargo/aws-credential-types@1.3",
+      "bom-ref": "cargo/aws-credential-types@1.3"
+    },
+    {
+      "type": "library",
+      "name": "aws-runtime",
+      "version": "1.8",
+      "purl": "pkg:cargo/aws-runtime@1.8",
+      "bom-ref": "cargo/aws-runtime@1.8"
+    },
+    {
+      "type": "library",
+      "name": "aws-sdk-kinesis",
+      "version": "1.110",
+      "purl": "pkg:cargo/aws-sdk-kinesis@1.110",
+      "bom-ref": "cargo/aws-sdk-kinesis@1.110"
+    },
+    {
+      "type": "library",
+      "name": "aws-sdk-lambda",
+      "version": "1",
+      "purl": "pkg:cargo/aws-sdk-lambda@1",
+      "bom-ref": "cargo/aws-sdk-lambda@1"
+    },
+    {
+      "type": "library",
+      "name": "aws-sdk-s3",
+      "version": "1.138",
+      "purl": "pkg:cargo/aws-sdk-s3@1.138",
+      "bom-ref": "cargo/aws-sdk-s3@1.138"
+    },
+    {
+      "type": "library",
+      "name": "aws-sdk-sqs",
+      "version": "1.103",
+      "purl": "pkg:cargo/aws-sdk-sqs@1.103",
+      "bom-ref": "cargo/aws-sdk-sqs@1.103"
+    },
+    {
+      "type": "library",
+      "name": "aws-smithy-async",
+      "version": "1.3",
+      "purl": "pkg:cargo/aws-smithy-async@1.3",
+      "bom-ref": "cargo/aws-smithy-async@1.3"
+    },
+    {
+      "type": "library",
+      "name": "aws-smithy-http-client",
+      "version": "1.2",
+      "purl": "pkg:cargo/aws-smithy-http-client@1.2",
+      "bom-ref": "cargo/aws-smithy-http-client@1.2"
+    },
+    {
+      "type": "library",
+      "name": "aws-smithy-mocks",
+      "version": "0.3",
+      "purl": "pkg:cargo/aws-smithy-mocks@0.3",
+      "bom-ref": "cargo/aws-smithy-mocks@0.3"
+    },
+    {
+      "type": "library",
+      "name": "aws-smithy-runtime",
+      "version": "1.12",
+      "purl": "pkg:cargo/aws-smithy-runtime@1.12",
+      "bom-ref": "cargo/aws-smithy-runtime@1.12"
+    },
+    {
+      "type": "library",
+      "name": "aws-smithy-runtime-api",
+      "version": "1.13",
+      "purl": "pkg:cargo/aws-smithy-runtime-api@1.13",
+      "bom-ref": "cargo/aws-smithy-runtime-api@1.13"
+    },
+    {
+      "type": "library",
+      "name": "aws-smithy-types",
+      "version": "1.6",
+      "purl": "pkg:cargo/aws-smithy-types@1.6",
+      "bom-ref": "cargo/aws-smithy-types@1.6"
+    },
+    {
+      "type": "library",
+      "name": "aws-types",
+      "version": "1.4",
+      "purl": "pkg:cargo/aws-types@1.4",
+      "bom-ref": "cargo/aws-types@1.4"
+    },
+    {
+      "type": "library",
+      "name": "azure_core",
+      "version": "0.21",
+      "purl": "pkg:cargo/azure_core@0.21",
+      "bom-ref": "cargo/azure_core@0.21"
+    },
+    {
+      "type": "library",
+      "name": "azure_identity",
+      "version": "0.21",
+      "purl": "pkg:cargo/azure_identity@0.21",
+      "bom-ref": "cargo/azure_identity@0.21"
+    },
+    {
+      "type": "library",
+      "name": "azure_storage",
+      "version": "0.21",
+      "purl": "pkg:cargo/azure_storage@0.21",
+      "bom-ref": "cargo/azure_storage@0.21"
+    },
+    {
+      "type": "library",
+      "name": "azure_storage_blobs",
+      "version": "0.21",
+      "purl": "pkg:cargo/azure_storage_blobs@0.21",
+      "bom-ref": "cargo/azure_storage_blobs@0.21"
+    },
+    {
+      "type": "library",
+      "name": "opendal",
+      "version": "0.58",
+      "purl": "pkg:cargo/opendal@0.58",
+      "bom-ref": "cargo/opendal@0.58"
+    },
+    {
+      "type": "library",
+      "name": "reqsign-core",
+      "version": "3.2",
+      "purl": "pkg:cargo/reqsign-core@3.2",
+      "bom-ref": "cargo/reqsign-core@3.2"
+    },
+    {
+      "type": "library",
+      "name": "reqsign-google",
+      "version": "3.0",
+      "purl": "pkg:cargo/reqsign-google@3.0",
+      "bom-ref": "cargo/reqsign-google@3.0"
+    },
+    {
+      "type": "library",
+      "name": "tantivy-fst",
+      "version": "0.5",
+      "purl": "pkg:cargo/tantivy-fst@0.5",
+      "bom-ref": "cargo/tantivy-fst@0.5"
+    },
+    {
+      "type": "library",
+      "name": "encoding_rs",
+      "version": "=0.8.35",
+      "purl": "pkg:cargo/encoding_rs@=0.8.35",
+      "bom-ref": "cargo/encoding_rs@=0.8.35"
+    },
+    {
+      "type": "library",
+      "name": "lto",
+      "version": "thin",
+      "purl": "pkg:cargo/lto@thin",
+      "bom-ref": "cargo/lto@thin"
+    },
+    {
+      "type": "library",
+      "name": "name",
+      "version": "quickwit-actors",
+      "purl": "pkg:cargo/name@quickwit-actors",
+      "bom-ref": "cargo/name@quickwit-actors"
+    },
+    {
+      "type": "library",
+      "name": "description",
+      "version": "Actor framework powering Quickwit services",
+      "purl": "pkg:cargo/description@Actor framework powering Quickwit services",
+      "bom-ref": "cargo/description@Actor framework powering Quickwit services"
+    },
+    {
+      "type": "library",
+      "name": "default-run",
+      "version": "quickwit",
+      "purl": "pkg:cargo/default-run@quickwit",
+      "bom-ref": "cargo/default-run@quickwit"
+    },
+    {
+      "type": "library",
+      "name": "path",
+      "version": "src/main.rs",
+      "purl": "pkg:cargo/path@src/main.rs",
+      "bom-ref": "cargo/path@src/main.rs"
+    },
+    {
+      "type": "library",
+      "name": "structopt",
+      "version": "0.3",
+      "purl": "pkg:cargo/structopt@0.3",
+      "bom-ref": "cargo/structopt@0.3"
+    },
+    {
+      "type": "library",
+      "name": "papaya",
+      "version": "0.2",
+      "purl": "pkg:cargo/papaya@0.2",
+      "bom-ref": "cargo/papaya@0.2"
+    },
+    {
+      "type": "library",
+      "name": "elasticsearch-dsl",
+      "version": "0.4",
+      "purl": "pkg:cargo/elasticsearch-dsl@0.4",
+      "bom-ref": "cargo/elasticsearch-dsl@0.4"
+    },
+    {
+      "type": "library",
+      "name": "reqwest-013",
+      "version": "0.13",
+      "purl": "pkg:cargo/reqwest-013@0.13",
+      "bom-ref": "cargo/reqwest-013@0.13"
+    },
+    {
+      "type": "library",
+      "name": "opendal-http-transport-reqwest",
+      "version": "0.58",
+      "purl": "pkg:cargo/opendal-http-transport-reqwest@0.58",
+      "bom-ref": "cargo/opendal-http-transport-reqwest@0.58"
+    },
+    {
+      "type": "library",
+      "name": "@babel/core",
+      "version": "7.29.6",
+      "purl": "pkg:npm/@babel/core@7.29.6",
+      "bom-ref": "npm/@babel/core@7.29.6"
+    },
+    {
+      "type": "library",
+      "name": "@babel/runtime",
+      "version": "7.28.6",
+      "purl": "pkg:npm/@babel/runtime@7.28.6",
+      "bom-ref": "npm/@babel/runtime@7.28.6"
+    },
+    {
+      "type": "library",
+      "name": "@biomejs/biome",
+      "version": "2.4.4",
+      "purl": "pkg:npm/@biomejs/biome@2.4.4",
+      "bom-ref": "npm/@biomejs/biome@2.4.4"
+    },
+    {
+      "type": "library",
+      "name": "@dr.pogodin/babel-plugin-transform-assets",
+      "version": "1.2.6",
+      "purl": "pkg:npm/@dr.pogodin/babel-plugin-transform-assets@1.2.6",
+      "bom-ref": "npm/@dr.pogodin/babel-plugin-transform-assets@1.2.6"
+    },
+    {
+      "type": "library",
+      "name": "@emotion/react",
+      "version": "11.14.0",
+      "purl": "pkg:npm/@emotion/react@11.14.0",
+      "bom-ref": "npm/@emotion/react@11.14.0"
+    },
+    {
+      "type": "library",
+      "name": "@emotion/styled",
+      "version": "11.14.1",
+      "purl": "pkg:npm/@emotion/styled@11.14.1",
+      "bom-ref": "npm/@emotion/styled@11.14.1"
+    },
+    {
+      "type": "library",
+      "name": "@monaco-editor/react",
+      "version": "4.7.0",
+      "purl": "pkg:npm/@monaco-editor/react@4.7.0",
+      "bom-ref": "npm/@monaco-editor/react@4.7.0"
+    },
+    {
+      "type": "library",
+      "name": "@mui/icons-material",
+      "version": "7.3.8",
+      "purl": "pkg:npm/@mui/icons-material@7.3.8",
+      "bom-ref": "npm/@mui/icons-material@7.3.8"
+    },
+    {
+      "type": "library",
+      "name": "@mui/lab",
+      "version": "7.0.1-beta.22",
+      "purl": "pkg:npm/@mui/lab@7.0.1-beta.22",
+      "bom-ref": "npm/@mui/lab@7.0.1-beta.22"
+    },
+    {
+      "type": "library",
+      "name": "@mui/material",
+      "version": "7.3.8",
+      "purl": "pkg:npm/@mui/material@7.3.8",
+      "bom-ref": "npm/@mui/material@7.3.8"
+    },
+    {
+      "type": "library",
+      "name": "@mui/system",
+      "version": "7.3.8",
+      "purl": "pkg:npm/@mui/system@7.3.8",
+      "bom-ref": "npm/@mui/system@7.3.8"
+    },
+    {
+      "type": "library",
+      "name": "@mui/x-charts",
+      "version": "8.27.0",
+      "purl": "pkg:npm/@mui/x-charts@8.27.0",
+      "bom-ref": "npm/@mui/x-charts@8.27.0"
+    },
+    {
+      "type": "library",
+      "name": "@mui/x-date-pickers",
+      "version": "8.27.2",
+      "purl": "pkg:npm/@mui/x-date-pickers@8.27.2",
+      "bom-ref": "npm/@mui/x-date-pickers@8.27.2"
+    },
+    {
+      "type": "library",
+      "name": "@testing-library/dom",
+      "version": "10.4.1",
+      "purl": "pkg:npm/@testing-library/dom@10.4.1",
+      "bom-ref": "npm/@testing-library/dom@10.4.1"
+    },
+    {
+      "type": "library",
+      "name": "@testing-library/jest-dom",
+      "version": "6.9.1",
+      "purl": "pkg:npm/@testing-library/jest-dom@6.9.1",
+      "bom-ref": "npm/@testing-library/jest-dom@6.9.1"
+    },
+    {
+      "type": "library",
+      "name": "@testing-library/react",
+      "version": "16.3.2",
+      "purl": "pkg:npm/@testing-library/react@16.3.2",
+      "bom-ref": "npm/@testing-library/react@16.3.2"
+    },
+    {
+      "type": "library",
+      "name": "@testing-library/user-event",
+      "version": "14.6.1",
+      "purl": "pkg:npm/@testing-library/user-event@14.6.1",
+      "bom-ref": "npm/@testing-library/user-event@14.6.1"
+    },
+    {
+      "type": "library",
+      "name": "@types/jest",
+      "version": "30.0.0",
+      "purl": "pkg:npm/@types/jest@30.0.0",
+      "bom-ref": "npm/@types/jest@30.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "24.10.9",
+      "purl": "pkg:npm/@types/node@24.10.9",
+      "bom-ref": "npm/@types/node@24.10.9"
+    },
+    {
+      "type": "library",
+      "name": "@types/react",
+      "version": "19.2.14",
+      "purl": "pkg:npm/@types/react@19.2.14",
+      "bom-ref": "npm/@types/react@19.2.14"
+    },
+    {
+      "type": "library",
+      "name": "@types/react-dom",
+      "version": "19.2.3",
+      "purl": "pkg:npm/@types/react-dom@19.2.3",
+      "bom-ref": "npm/@types/react-dom@19.2.3"
+    },
+    {
+      "type": "library",
+      "name": "@types/swagger-ui-react",
+      "version": "5.18.0",
+      "purl": "pkg:npm/@types/swagger-ui-react@5.18.0",
+      "bom-ref": "npm/@types/swagger-ui-react@5.18.0"
+    },
+    {
+      "type": "library",
+      "name": "babel-jest",
+      "version": "30.2.0",
+      "purl": "pkg:npm/babel-jest@30.2.0",
+      "bom-ref": "npm/babel-jest@30.2.0"
+    },
+    {
+      "type": "library",
+      "name": "babel-preset-react-app",
+      "version": "10.1.0",
+      "purl": "pkg:npm/babel-preset-react-app@10.1.0",
+      "bom-ref": "npm/babel-preset-react-app@10.1.0"
+    },
+    {
+      "type": "library",
+      "name": "dayjs",
+      "version": "1.11.19",
+      "purl": "pkg:npm/dayjs@1.11.19",
+      "bom-ref": "npm/dayjs@1.11.19"
+    },
+    {
+      "type": "library",
+      "name": "jest",
+      "version": "30.2.0",
+      "purl": "pkg:npm/jest@30.2.0",
+      "bom-ref": "npm/jest@30.2.0"
+    },
+    {
+      "type": "library",
+      "name": "jest-environment-jsdom",
+      "version": "30.2.0",
+      "purl": "pkg:npm/jest-environment-jsdom@30.2.0",
+      "bom-ref": "npm/jest-environment-jsdom@30.2.0"
+    },
+    {
+      "type": "library",
+      "name": "monaco-editor",
+      "version": "0.55.1",
+      "purl": "pkg:npm/monaco-editor@0.55.1",
+      "bom-ref": "npm/monaco-editor@0.55.1"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "19.2.4",
+      "purl": "pkg:npm/react@19.2.4",
+      "bom-ref": "npm/react@19.2.4"
+    },
+    {
+      "type": "library",
+      "name": "react-app-polyfill",
+      "version": "3.0.0",
+      "purl": "pkg:npm/react-app-polyfill@3.0.0",
+      "bom-ref": "npm/react-app-polyfill@3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "react-dom",
+      "version": "19.2.4",
+      "purl": "pkg:npm/react-dom@19.2.4",
+      "bom-ref": "npm/react-dom@19.2.4"
+    },
+    {
+      "type": "library",
+      "name": "react-number-format",
+      "version": "5.4.4",
+      "purl": "pkg:npm/react-number-format@5.4.4",
+      "bom-ref": "npm/react-number-format@5.4.4"
+    },
+    {
+      "type": "library",
+      "name": "react-router",
+      "version": "7.18.2",
+      "purl": "pkg:npm/react-router@7.18.2",
+      "bom-ref": "npm/react-router@7.18.2"
+    },
+    {
+      "type": "library",
+      "name": "styled-components",
+      "version": "6.1.19",
+      "purl": "pkg:npm/styled-components@6.1.19",
+      "bom-ref": "npm/styled-components@6.1.19"
+    },
+    {
+      "type": "library",
+      "name": "styled-icons",
+      "version": "10.47.1",
+      "purl": "pkg:npm/styled-icons@10.47.1",
+      "bom-ref": "npm/styled-icons@10.47.1"
+    },
+    {
+      "type": "library",
+      "name": "swagger-ui-react",
+      "version": "5.32.14",
+      "purl": "pkg:npm/swagger-ui-react@5.32.14",
+      "bom-ref": "npm/swagger-ui-react@5.32.14"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "5.9.3",
+      "purl": "pkg:npm/typescript@5.9.3",
+      "bom-ref": "npm/typescript@5.9.3"
+    },
+    {
+      "type": "library",
+      "name": "vite",
+      "version": "7.3.5",
+      "purl": "pkg:npm/vite@7.3.5",
+      "bom-ref": "npm/vite@7.3.5"
+    },
+    {
+      "type": "library",
+      "name": "@playwright/test",
+      "version": "^1.58.2",
+      "purl": "pkg:npm/@playwright/test@^1.58.2",
+      "bom-ref": "npm/@playwright/test@^1.58.2"
+    },
+    {
+      "type": "library",
+      "name": "url",
+      "version": "https://pypi.org/simple",
+      "purl": "pkg:pypi/url@https://pypi.org/simple",
+      "bom-ref": "pypi/url@https://pypi.org/simple"
+    },
+    {
+      "type": "library",
+      "name": "verify_ssl",
+      "version": "true",
+      "purl": "pkg:pypi/verify-ssl@true",
+      "bom-ref": "pypi/verify_ssl@true"
+    },
+    {
+      "type": "library",
+      "name": "name",
+      "version": "pypi",
+      "purl": "pkg:pypi/name@pypi",
+      "bom-ref": "pypi/name@pypi"
+    },
+    {
+      "type": "library",
+      "name": "requests",
+      "version": "*",
+      "purl": "pkg:pypi/requests@*",
+      "bom-ref": "pypi/requests@*"
+    },
+    {
+      "type": "library",
+      "name": "pyaml",
+      "version": "*",
+      "purl": "pkg:pypi/pyaml@*",
+      "bom-ref": "pypi/pyaml@*"
+    },
+    {
+      "type": "library",
+      "name": "python_version",
+      "version": "3.11",
+      "purl": "pkg:pypi/python-version@3.11",
+      "bom-ref": "pypi/python_version@3.11"
+    }
+  ]
+}
